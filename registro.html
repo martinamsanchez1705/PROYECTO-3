@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"
-        content="TAROT, TAROT EVOLUTIVO, CARTAS, MAGIA, RESPUESTAS, GUIA, AYUDA, ARCANOS, TIRADA, VIDA, MUERTE">
+    <meta name="keywords" content="TAROT, TAROT EVOLUTIVO, CARTAS, MAGIA, RESPUESTAS, GUIA, AYUDA, ARCANOS, TIRADA, VIDA, MUERTE">
     <link rel="shortcut icon" href="img/tauro.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -14,14 +13,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <title>HOME</title>
+    <title>REGISTRO</title>
 </head>
 
 <body>
-    <!-- comienza navbar -->
     <nav class="navbar navbar-expand-md  navbar-dark" id="HOMEBARRA">
-        <!-- Brand -->
-        <a class="navbar-brand" href="index.html">BABY TAURINA <span>✨</span></a>
+        <!-- Brand  -->
+        <a class="navbar-brand" href="index.html">BABY TAURINA<span>✨</span></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -32,66 +30,47 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="quiensoy.html">QUIEN SOY</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="arcanos.html">ARCANOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    <a class="nav-link" href="quiensoy.html">QUIEN SOY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="registro.html">REGISTRATE</a>
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- finaliza navbar -->
-
-    <!-- jumbotron inicia -->
-    <div class="jumbotron">
-    </div>
-    <!-- jumbotron finaliza -->
-
-    <!-- nosotros del home inicia -->
-    <h3>QUE TRABAJAMOS</h3>
-    <div class="container-fluid nosotros">
-        <div class="row">
-            <div class="col-md-6 n-left"></div>
-            <div class="col-md-6 n-right">
-                <h4>TAROT EVOLUTIVO</h4>
-                <p class="homep">El tarot evolutivo es una herramienta terapéutica basada en la lectura del tarot que
-                    permite
-                    conocer y descubrir nuestro potencial humano y espiritual para poder resolver aquello que nos
-                    bloquea y
-                    evolucionar de mejor manera con nuestras circunstancias de realización, integración y equilibrio
-                    personal.</p>
-                <a href="registro.html" target="_blank" class="btn btn-primary">CLICK AQUI</a>
-            </div>
+    <section>
+        <div class="login-box">
+            <form action="">
+                <h6>REGISTRO</h6>
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>CORREO</label>
+                </div>
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>CONTRASEÑA</label>
+                </div>
+                <div class="remember-forgot">
+                    <label> <input type="checkbox">RECUERDAME</label>
+                    <a href="#">¿GUARDAR CONTRASEÑA?</a>
+                </div>
+                <button id="boton" type="submit">INGRESAR</button>
+                <div class="register-link">
+                    <p>¿No tienes cuenta?</p> <a href="#">REGISTRATE!</a>
+                </div>
+            </form>
         </div>
-    </div>
-    <!-- nosotros del home finaliza -->
+    </section>
 
-    <!-- comienza galeria de home -->
-    <h5>TESTIMONIOS</h5>
-    <div class="container-fluid gal">
-        <div class="row">
-            <article class="col-sm-6 col-md-4 col-lg-3 art1"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art2"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art3"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art4"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art5"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art6"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art7"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art8"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art9"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art10"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art10"></article>
-            <article class="col-sm-6 col-md-4 col-lg-3 art1"></article>
-        </div>
 
-    </div>
-    <!-- finaliza galeria de home -->
 
     <!-- comienza footer -->
     <footer>
@@ -108,7 +87,13 @@
     <a href="#" class="subir"><i class="fa-solid fa-chevron-up fa-bounce"></i></a>
     <!-- finaliza footer -->
 
-    <!-- linkiado de bootrstrap -->
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- ionicons -->
+
+    <!-- linkiado de bootstrap -->
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -118,7 +103,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
-    <!-- linkiado de bootrstrap -->
+    <!-- linkiado de bootstrap -->
 </body>
 
 </html>

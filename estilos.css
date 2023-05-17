@@ -1,3 +1,612 @@
+/* LO QUE VA EN TODAS LAS PAG */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Dancing+Script&family=Josefin+Sans:ital,wght@0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+.subir {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-family: 90px;
+    color: rgb(44, 64, 179);
+    background-color: #ddcef08a;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 3px solid #ccadf5;
+}
+
+.subir:hover {
+    box-shadow: 0 0 5px rgb(47, 47, 95);
+}
 
 
-/*# sourceMappingURL=estilos.css.map */
+
+/* comienzo pagina 1 index css CON BOOTSTRAP*/
+nav{
+    background-image: radial-gradient(circle, #9e1ab3, #ab2eb7, #b73eba, #c34dbf, #ce5cc3, #ca5dc5, #c65dc8, #c15eca, #a954ca, #8d4bcb, #6b45cb, #3840cb);
+    font-family: 'Playfair Display', serif;
+    color: #e2bdff;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    text-shadow: 0 0 8px #f7f4f4, 0 0 8px #ffffff;
+    font-weight: 100;
+}
+
+.nav-link{
+    color: #ceafee !important;
+}
+
+.nav-link:hover{
+    text-shadow: 0 0 8px #fffdfd;
+}
+
+.jumbotron{
+    background-image:url(img/arcano.sol.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    margin: 0;
+}
+
+h3{
+    margin: 0%;
+    text-align: center;
+    background-color: rgba(169, 138, 184, 0.791);
+    padding: 20px;
+    color: #37193a;
+    font-family: 'Caveat', cursive;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3%;
+    color: #77309a;
+}
+
+.homep {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3%;
+    color: #100d12;
+}
+
+#botonhome{
+    padding: 20px;
+    background-color: #6766b88c;
+    border: 2px solid #1a193a ;
+}
+
+.n-left{
+    background-image: url(img/sahumerio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+.n-right{
+    background-color: rgba(103, 102, 184, 0.407);
+} 
+
+h5{
+    background-color: #664d72;
+    color: #c6afe1ae;
+    text-align: center;
+    margin: 0%;
+}
+
+.gal article{
+    height: 250px;
+    border: 2px solid #1a193a;
+    transition: 0.9s;
+}
+
+.art1{
+    background-image: url(img/test1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art2{
+    background-image: url(img/test2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art3{
+    background-image: url(img/test3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art4{
+    background-image: url(img/test4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art5{
+    background-image: url(img/test5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art6{
+    background-image: url(img/test6.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art7{
+    background-image: url(img/test7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art8{
+    background-image: url(img/test8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art9{
+    background-image: url(img/test9.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.art10{
+    background-image: url(img/test10.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.art:hover{
+    transform: scale(1.0);
+    box-shadow: 0 0 5px;
+    filter: opacity(100%);
+}
+
+
+/* PAGINA QUIEN SOY INCLUYENDO GRIDS, BOOTSTRAP, @MEDIA */
+
+h2{
+margin: 0;
+text-align: center;
+background-color: #6766b8da;
+color:  rgb(201, 179, 153);
+padding: 20px;
+font-family: 'Playfair Display', serif;
+}
+
+.n-ler{
+    background-image: url(img/kitten-1845789_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+.n-ri
+{
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.galeria{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(181, 144, 216);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+    font-family: 'Playfair Display', serif; 
+}
+
+.item{
+    border: 3px solid #6866b8;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.9s;
+}
+
+.item:hover{
+    transform: scale(1.09);
+    transition: 0.9s;
+    filter: sepia(100%)
+}
+
+.item1 {
+    background-image: url(img/doradotarot.jpg);
+    /*grid-column: 1/2;
+    grid-row: 1/3;*/
+}
+
+.item2 {
+    background-image: url(img/palosanto.jpg);
+    /*grid-column: 2/3;
+    grid-row: 1/2;*/
+}
+
+.item3 {
+    background-image: url(img/tarotbaraja.jpg);
+    /*grid-column:3/5;
+    grid-row: 1/2;*/
+}
+
+.item4 {
+    background-image: url(img/tarotclaro.jpg);
+    /*grid-column: 2/3;
+    grid-row: 2/4;*/
+}
+
+.item5 {
+    background-image: url(img/castillo.jpg);
+    /*grid-column: 3/4;
+    grid-row: 2/3;*/
+}
+
+.item6 {
+    background-image: url(img/tarotmesa.jpg);
+    /*grid-column: 4/5;
+    grid-row: 2/3;*/
+}
+
+.item7 {
+    background-image: url(img/body.jpg);
+    /*grid-column: 1/2;
+    grid-row: 3/4;*/
+}
+
+.item8 {
+    background-image: url(img/fondo.jpg);
+    /*grid-column: 3/5;
+    grid-row: 3/4;*/
+}
+
+footer{
+    background-image: radial-gradient(circle, #9e1ab3, #ab2eb7, #b73eba, #c34dbf, #ce5cc3, #ca5dc5, #c65dc8, #c15eca, #a954ca, #8d4bcb, #6b45cb, #3840cb);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer p{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+footer a{
+    color: #1a193a;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+    nav {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023) {
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .item3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:1024px) { 
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+    
+    
+}
+/* MAS INFO CON ANIMACION*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(img/holographic-7944567_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
+}
+
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg) ;
+    }
+}
+
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgb(172, 172, 226);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+h6{
+    font-size: 2em;
+    color: #e4e4f8;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color:#e4e4fe ;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#e4e4fe ;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icono{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember-forgot{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #e4e4fe;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #1a193a;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+#boton {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 250, 240, 0.397);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #77309a;
+    font-weight: 500;
+}
+
+.register-link{
+    font-size: .9em;
+    color: #e4e4fe ;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register-link p a{
+    color: #e4e4fe;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 360px) {
+    .login-box{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+    .input-box{
+        width: 290px;
+    }
+}
+
+/* CSS DE arcanos TRABAJANDO CON BOOTSTRAP */
+
+.fondo{
+    background-image: url(img/fondo.jpg);
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.card{
+    background-color: #ae81e981;
+    justify-content: center;
+    margin: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    transition: all 0.9s;
+}
+
+.card-title{
+    font-family: 'Caveat', cursive;
+    
+}
+
+.card p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.card:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px;
+    filter: opacity(100%);
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #4c3a58a2;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+}
+
+/* CONTACTO CON BOOTSTRAP */
+
+#comentario{
+    background-image: url(img/fondo.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+div p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3%;
+    color: #77309a;
+}
+
+h1{
+    color: #a98ab8;
+    text-shadow:0 0 8px #9c58bb;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+form{
+    background-color: #6766b848;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-control{
+    background-color: #2f2d633f;
+}
+
+#encabezado{
+        background-color: #6866b8;
+}
+
+.card-header{
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.bolon{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    text-align: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.mb-0{
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
